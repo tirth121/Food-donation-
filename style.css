@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    display: inline;
+    display: block;
+    float: right;
+    color: aliceblue;
+    padding: 15px;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 8px;
+
+}
+nav{
+    height: 70px;
+    background-color: #0F172B;
+}
+li:hover{
+    color: rgb(219, 146, 36);
+}
+ nav p{
+    color: rgb(219, 146, 36);
+    padding-top: 10px;
+    padding-left: 18px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{ 
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(2.3.1.jpg);
+    width: 100%;
+    height: 760px;
+    background-size: cover;
+    
+}
+.container p{
+    text-align: center;
+    padding-top: 210px;
+    color: aliceblue;
+    font-size: 70px;
+    font-weight: bolder;
+    
+
+}
+form #btn1{
+    background-color:  rgb(219, 146, 36);
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    margin-left: 620px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: aliceblue;
+    border-radius: 2px;
+}
+form #btn2{
+    background-color:  white;
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+#btn1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#btn2:hover{
+    background-color: rgb(219, 146, 36);
+    color: white;
+}
+ .column{
+    float: left;
+    width: 50%;
+    height: 600px;
+    background-color: whitesmoke;
+ }
+ .column h1{
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 80px;
+
+ }
+  .column p{
+    padding-left: 80px;
+    padding-top: 35px;
+    font-weight: lighter;
+    font-size: 20px;
+    
+  }
+  .column1{
+    float: left;
+    width: 33.33;  
+
+  }
+  .column1 h2{
+ 
+    font-size: 40px;
+   padding-top: 8px;
+    padding-left: 125px;
+  }
+  .column1 p{
+    font-size: 20px;
+    padding-left: 130px;
+    padding-top: 8px;
+  
+  }
+  .column1 i{
+    font-size: 40px;
+    padding-left: 135px;
+    color: rgb(219, 146, 36);
+    padding-top: 60px;
+  }
+ .row button{
+    margin-left: 80px;
+    margin-top: 40px;
+    background-color:  rgb(219, 146, 36);
+    font-size: 27px;
+     padding: 17px;
+    font-weight: 700;
+    color: aliceblue;
+    border: whitesmoke;
+    
+ }
+ .column h3{
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 50px;
+ }
+ .img1{
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-left: 30px;
+   
+ }
+ .img2{
+    margin-top: 30px;
+    margin-left: 60px;
+ }
+ .foot p{
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 650px;
+    font-weight: bold;
+    
+    font-size: 40px;
+    display: table;
+ }
+ .foot1{
+    margin-top: 20px;
+    font-size: larger;
+    
+    height: 510px;
+    
+ }
+ .column2{
+    width: 33.33%;
+    float: left;
+    
+    
+
+ }
+ .column2 img{
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+ .column2 h2{
+    padding-left: 50px;
+    padding-top: 20px;
+     display: inline;
+    margin-top: 20px;
+
+ }
+ .column2 i{
+    color: rgb(219, 146, 36);
+    float: right;
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+
+    
+    
+ } 
+ .conainer{
+    padding-right: 60px;
+ }
+ .column3{
+    float: left;
+    width: 33.33%;
+ }
+.column3 i {
+    float: left;
+    margin-left: 50px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.column3 p{
+    padding-top: 15px;
+}
+.column2 #para p{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.column2{
+  box-shadow: -40px 10px 15px rgba(0,0,0,0.1);
+}
+.column2 #btn4 button{
+    margin-top: 20px;
+    padding: 15px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(219, 146, 36);
+    border-radius: 4px;
+    border: whitesmoke;
+    color: aliceblue;
+}
+.column2 #btn5 button{
+margin-top: 20px;
+    padding: 15px;
+    float: right;
+    margin-right: 80px;
+    background-color: rgb(219, 146, 36);
+    color: aliceblue;
+    border-radius: 4px;
+    border: whitesmoke;
+}
+.column4{
+    width: 50%;
+    float: left;
+    background-color: #0F172B;
+    height: 500px;
+    display: table;
+    color: aliceblue;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.column4 p{
+    font-weight: 800;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 60px;
+}
+.column5{
+    width: 50%;
+    float: right;
+}
+.column4 #p1{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.column4 #btn4 button{
+    background-color: rgb(219, 146, 36);
+    color: aliceblue;
+    border: whitesmoke;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+.column4 #btn5 button{
+   
+   color: black;
+    border: whitesmoke;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.foot5 p{
+    height: 160px;
+    font-size: 45px;
+    display: table;
+    text-align: center;
+    margin-left: 675px;
+    font-weight: 800;
+    padding-top: 40px;
+}
+.row5{height: 500px;
+
+}
+.column6{
+    width: 25%;
+    height: 250px;
+    display: table;
+    float: left;
+    padding: 10px;
+    padding-top: 40px;
+    box-shadow: -40px 10px 15px rgba(0,0,0,0.1);
+}
+.column6 i{
+    font-size: 40px;
+    color: rgb(219, 146, 36);
+    margin-left: 140px;
+}
+.column6 h3{
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+.column6 p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.column7{
+    width: 50%;
+    display: table;
+    float: left;
+}
+.column7 h3{
+    font-size: 40px;
+    padding-left: 250px;
+}
+.column7 form {
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+.column7  #rg2 input{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 160px;
+    margin-left: 55px;
+}
+.column7  #rg1 input{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 160px;
+    margin-left: 22px;
+}
+.column7 #rg3 input{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 160px;
+    margin-left: 65px;
+}
+.column7 #rg4 textarea{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    padding-right: 10px;
+    margin-left: 30px;
+}
+.column7 #rg4 #btn6 button{
+    background-color: rgb(219, 146, 36);
+    color: aliceblue;
+    border: whitesmoke;
+    float: left;
+    
+
+}
+
